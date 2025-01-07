@@ -12,8 +12,6 @@
    - [5.1 If you use an ISR](#51-If-you-use-an-ISR)
    - [5.2 If you use the hooks](#52-If-you-use-the-hooks)
 - [6 References](#6-References)
-   - [6.1 English](#61-English)
-   - [6.2 Spanish](#62-Spanish)
 
 <br/>
 
@@ -267,7 +265,7 @@ To work with hooks, you will need to include the interruptM1_Hooks library to yo
 
 | WARNING! |
 | -------- | 
-| Before switching to a new ISR, it is recommended to disable the hooks (use `Disable_ISR()` and `Disable_KEYI()`), because system routines make changes to memory pages and could crash the system. <br/> Disabling interrupts is not a good solution, because many functions turn interrupts on. |
+| Before switching to a new ISR, it is recommended to disable the hooks (use `Disable_TIMI()` and `Disable_KEYI()`), because system routines make changes to memory pages and could crash the system. <br/> Disabling interrupts is not a good solution, because many functions turn interrupts on. |
 
 | ATTENTION! |
 | ---------- | 

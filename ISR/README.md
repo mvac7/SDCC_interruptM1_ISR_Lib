@@ -4,7 +4,7 @@
 <tr><td>Architecture</td><td>MSX</td></tr>
 <tr><td>Format</td><td>C Object (SDCC .rel)</td></tr>
 <tr><td>Programming language</td><td>C and Z80 assembler</td></tr>
-<tr><td>Compiler</td><td>[`SDCC`](http://sdcc.sourceforge.net/) v4.4 or newer</td></tr>
+<tr><td>Compiler</td><td>SDCC v4.4 or newer</td></tr>
 </table>
 
 ---

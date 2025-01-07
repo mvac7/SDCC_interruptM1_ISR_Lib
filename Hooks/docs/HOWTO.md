@@ -12,8 +12,6 @@
    - [4.2 KEYI Hook Functions](#42-KEYI-Hook-Functions)
 - [5 How to use](#5-How-to-use)
 - [6 References](#6-References)
-   - [6.1 English](#61-English)
-   - [6.2 Spanish](#62-Spanish)
 
 <br/>
 
@@ -55,9 +53,9 @@ Name       | Description
 ---------- | -------------
 `DisableI` | Disable interrupts. <br/> Add `DI` code in Z80 assembler.
 `EnableI`  | Enable interrupts. <br/> Add `EI` code in Z80 assembler.
+`HALT`     | Suspends all actions until the next interrupt. <br/> Add `HALT` code in Z80 assembler.
 `PUSH_AF`  | Saves the AF value on the stack. Required for starting TIMI (VBLANK) type functions. <br/> Add `PUSH AF` code in Z80 assembler.
 `POP_AF`   | Retrieves the value of AF from the stack. Required for the end of TIMI (VBLANK) type functions. <br/> Add `POP AF` code in Z80 assembler.
-`HALT`     | Suspends all actions until the next interrupt. <br/> Add `HALT` code in Z80 assembler.
 
 
 <br/>
