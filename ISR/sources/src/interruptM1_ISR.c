@@ -1,10 +1,11 @@
 /* =============================================================================
 Z80 interrupt Mode 1 MSX SDCC Library (fR3eL Project)
 Version: 1.2 (31/12/2024)
-Author: mvac7
+Author: mvac7/303bcn
 Architecture: MSX
 Format: C Object (SDCC .rel)
 Programming language: C and Z80 assembler
+Compiler: SDCC 4.4 or newer
 
 fR3eL Project
 https://github.com/mvac7/SDCC_MSX_fR3eL

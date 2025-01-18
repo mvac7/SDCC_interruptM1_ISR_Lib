@@ -50,7 +50,7 @@ void my_TIMI2(void);
 
 // ------------------------------------------------------------------- constants
 const char AppAbout[] = "Test interruptM1_Hooks Lib";
-const char text03[] = "Press any key";
+const char txtPressKey[] = "Press any key";
 
 const char VFreqSTRINGS[2][12]={"60Hz (NTSC)","50Hz (PAL) "};
 const char msxSTRINGS[4][7]={"MSX   ","MSX2  ","MSX2+ ","TurboR"};
@@ -96,7 +96,7 @@ void main(void)
 
 
 	LOCATE(0,5);  
-	PRINT(text03);
+	PRINT(txtPressKey);
 	INKEY();
 
 	LOCATE(0,5);  
@@ -108,7 +108,7 @@ void main(void)
 
 //Return to MSXDOS -------------------------------------------------------------
 	LOCATE(0,23);  
-	PRINT(text03);
+	PRINT(txtPressKey);
 	INKEY();
 }
 

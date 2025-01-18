@@ -33,7 +33,7 @@ Enjoy it!
 
 ---
 
-## History of versions:
+## History of versions
 - v1.2 (31/12/2024) Update to SDCC (4.1.12) Z80 calling conventions.
 - v1.1 ( 1/09/2021) More functions to control ISR and two Hooks (TIMI/KEYI).
 - v1.0 (16/11/2004) First version developed by [Avelino Herrera](http://msx.avelinoherrera.com/index_es.html#sdccmsxdos)
